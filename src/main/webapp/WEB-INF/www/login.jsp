@@ -8,12 +8,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>mbxvoid</title>
 	</head>
-	<link rel="stylesheet" href="/resources/com/css/index.css">
-	<link href="/resources/com/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
-	<link href="/resources/com/assets/fontawesome/css/all.css" rel="stylesheet">
-	<link href="/resources/com/assets/fontawesome/css/solid.css" rel="stylesheet">
-	<link href="/resources/com/assets/fontawesome/css/brands.css" rel="stylesheet">
-	<link href="/resources/com/assets/fontawesome/css/v4-font-face.css" rel="stylesheet">
+	<link rel="stylesheet" href="/com/css/index.css">
+	<link href="/com/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+	<link href="/com/assets/fontawesome/css/all.css" rel="stylesheet">
+	<link href="/com/assets/fontawesome/css/solid.css" rel="stylesheet">
+	<link href="/com/assets/fontawesome/css/brands.css" rel="stylesheet">
+	<link href="/com/assets/fontawesome/css/v4-font-face.css" rel="stylesheet">
 	<body>
 	    <div id="world_body" class="display-flex">
 	        <section class="login_box-section display-flex flex-direction-column">
@@ -49,9 +49,9 @@
 	    </div>
 	</body>
 </html>
-<script src="/resources/com/js/jquery/jquery-3.6.0.min.js"></script>
-<script src="/resources/com/js/login.js"></script>
-<script src="/resources/com/js/common.js"></script>
+<script src="/com/js/jquery/jquery-3.6.0.min.js"></script>
+<script src="/com/js/login.js"></script>
+<script src="/com/js/common.js"></script>
 
 <script>
 $("#guest_login").click(function(){
