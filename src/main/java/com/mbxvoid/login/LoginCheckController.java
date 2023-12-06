@@ -10,12 +10,13 @@ import org.springframework.web.bind.annotation.*;
 import com.mbxvoid.user.UserDto;
 
 @RestController
+@RequestMapping("/login")
 public class LoginCheckController {
 
     @Autowired
     LoginCheckService service;
 
-    @PostMapping("/loginCheck.do")
+    @PostMapping("/loginCheck")
     public List<Object> LoginChec(@RequestBody UserDto param){
         List<Object> list = new ArrayList<>();
         String path = "";
