@@ -18,3 +18,4 @@ com/mbxvoid/project/ProjectDto.class
 com/mbxvoid/user/UserService.class
 com/mbxvoid/user/UserServiceImpl.class
 com/mbxvoid/contents/ContentsRepository.class
+com/mbxvoid/LoginTest.class
