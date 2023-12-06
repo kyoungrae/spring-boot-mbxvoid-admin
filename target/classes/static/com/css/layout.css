@@ -1,0 +1,359 @@
+/* 
+* layout.tag page css -----------------------------------------------------------------------
+*/
+.main-layoutTag-body{
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+}
+.main-layoutTag-contents{
+    width: 100%;
+    height: 100%;
+}
+/* 
+* header.jsp page css -----------------------------------------------------------------------
+*/
+.header-nav{
+    background-color: rgb(255, 255, 255);
+    min-height: 10%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header-logo_text{
+    font-family: "Decovar Regular24"; 
+    font-size: 2rem;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    text-shadow: 
+    -1px -1px 0 rgba(255, 255, 255, .7),
+    1px -1px 0 rgba(255, 255, 255, .7), 
+    -1px 1px 0 rgba(255, 255, 255, .7), 
+    1px 1px 0 rgba(255, 255, 255, .7), 
+    -1px 2px 1px rgba(160, 160, 160, .7),
+    -2px 4px 2px rgba(160, 160, 160, .7),
+    -3px 6px 3px rgba(160, 160, 160, .6),
+    -4px 8px 4px rgba(160, 160, 160, .5),
+    -5px 10px 5px rgba(160, 160, 160, .4),
+    -6px 12px 6px rgba(160, 160, 160, .3);
+}
+.header-user_info{
+    width: 2.40625rem;
+    height: 2.40625rem;
+    border-radius: 100%;
+    border: 1px solid rgb(219, 219, 219);
+    background-image: url("/com/img/user_info.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* 
+* sidebar.jsp page css -----------------------------------------------------------------------
+*/ 
+#menuList , .sidebar-mainMenu , .sidebar-submenu{
+    list-style: none;
+}
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.sidebar-mainMenu{
+    width: 100%;
+}
+.sidebar-menuTitle ,.sidebar-submenu-menuTitle{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    box-sizing: border-box;
+}
+.sidebar-menuTitle > i ,.sidebar-submenu-menuTitle > i{ 
+    margin: 0px 5px;
+}
+.sidebar-submenu-menuTitle::before{
+    position: absolute;
+    top: 0;
+    left: 1.3125rem;
+    width: 0.125rem;
+    height: calc(100% - 0.25rem);
+    content: "";
+    background-color: rgba(231,234,243,.7);
+}
+.sidebar-submenu-menuTitle{
+    padding-left: 1.9rem;
+}
+.sidebar-menuTitle{
+    border-radius: 5px;
+}
+.sidebar-submenu-menuTitle-a{
+    width: 100%;
+    padding: 0.5rem 0.875rem!important;
+    margin-bottom: 0.25rem;
+    border-radius: 5px;
+}
+.sidebar-submenu-menuTitle-a:hover ,.sidebar-menuTitle:hover{
+    background-color: rgb(241, 241, 241);
+}
+.sidebar-submenu{
+    position: relative;
+}
+
+.sidebar-menuTitle::after{
+    margin-left: auto;
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("/com/img/arrow.svg");
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    background-position: right center;
+    transition: .3s;
+
+}
+
+/* 
+* main.jsp page css -----------------------------------------------------------------------
+*/
+.main-body{
+    width: 90%;
+    background: rgba(255, 255, 255, 1);
+    overflow-y: scroll;
+}
+.main-content{
+    height: 100%;
+    margin-bottom: 3.2rem;
+}
+.main-content,.main-footer{
+    padding: 15px;
+    box-sizing: border-box;
+}
+.main-content-title-box{    
+    border-top: 1px solid rgb(233, 233, 252);
+    border-bottom: 1px solid rgb(233, 233, 252);
+    margin: 1.1rem 0rem;
+    padding: 1.1rem;
+    box-sizing: border-box;
+}
+.main-content-path{
+    color: rgb(184, 184, 184);
+}
+.main-content-title{
+    font-size: 2.4rem;
+}
+.main-content-nav_tab{
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    margin-bottom: 3.25rem;
+    border-bottom: 1px solid rgb(233, 233, 252);
+}
+.main-content-nav-items{
+    padding: 1.5rem;
+    display: list-item;
+    box-sizing: border-box;
+}
+.nav_active{
+    border-bottom: 2px solid rgb(119, 119, 255);
+}
+.nav_active > .nav-link{
+    color: rgb(119,119,255);
+}
+.nav-link-sub{
+    color: #000;
+}
+.nav-link{
+    padding: 1.72rem;
+    box-sizing: border-box;
+}
+.nav-link-sub{
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    background-color:  rgb(233, 233, 252);
+}
+.main-contents{
+    border: 1px solid rgb(233, 233, 252);
+    padding: 1.2rem;
+    box-sizing: border-box;
+    margin-bottom: 3.25rem;
+    border-radius: 0.7rem;
+}
+.total_text{
+    line-height: 2.3rem;
+    font-size: 2.7rem;
+}
+.main-content-total-progressbar ,.total_text ,.total_text_sub ,.progressbar-box {
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+}
+.progressbar-box > li{
+    padding-left:1rem ;
+    padding-right:2.5rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    color: rgb(110, 110, 110);
+}
+.total_text_sub{
+    color: rgb(110, 110, 110);
+}
+.inprogress{
+    height: 0.4rem;
+    background-color: rgb(74, 168, 251);
+}
+.completed{
+    height: 0.4rem;
+    background-color: rgb(77, 253, 97);
+}
+.todo{
+    height: 0.4rem;
+    background-color: rgb(194, 194, 194);
+}
+.inprogress-text , .completed-text, .todo-text{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+
+}
+.inprogress-text::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(74, 168, 251);
+}
+.completed-text::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(77, 253, 97);
+}
+.todo-text::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(194, 194, 194);
+}
+.project-status >li{
+    padding-right:0.5rem;
+    box-sizing: border-box;
+    color: rgb(110, 110, 110);
+}
+.main-content-contents{
+    padding:0px !important;
+    
+}
+.main-content-contents-nav{
+    background-color: rgb(237, 241, 244);
+    padding: 1.2rem;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+}
+.main-content-projects{
+    padding: 1.2rem;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+}
+/* 
+* footer.jsp page css -----------------------------------------------------------------------
+*/
+
+
+/* 
+* view_popup css -----------------------------------------------------------------------
+*/
+#view-popup{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4e4e4e46;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+.view-popup-body-box{
+    width: 60%;
+    min-height: 60%;
+    background-color: #fff;
+    border-radius: 0.7rem;
+    padding: 2.2rem;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px #00000053;
+}
+.view-popup-body{
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 0.7rem;
+    margin-bottom: 1.2rem;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    
+}
+.view-popup-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 0.7rem 1.4rem;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    border-radius: 0.7rem;
+    color: rgb(110, 110, 110);
+    box-shadow: 0px 0px 5px #00000053;
+    border: 1px solid #d0d0d0;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: #f4f4f4;
+    color: #9f9f9f;
+    box-shadow: 0px 0px 10px #1088ff53;
+}
+.view-popup_title{
+    border-bottom: 1px solid #d0d0d0;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+.view-popup-contents{
+    box-shadow: 0px 0px 5px #00000021;
+    border-radius: 0.7rem;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    margin-bottom: 1.1rem;
+}
+.view-popup-contents>span{
+    display: block;
+}
+.view-popup-content_title{
+    font-size: 0.9rem;
+    color: #000000;
+}
+.view-popup-content_text{
+    font-size: 1rem;
+    color: #898989;
+}
