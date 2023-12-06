@@ -62,7 +62,7 @@ function guestLogin(){
 	var mebx = new Mebx();
 	var path = 'login/loginCheck';
     $.ajax({
-    	type:"POST",
+    	type:"GET",
     	url : path,
     	data: JSON.stringify({
     		user_id : "guest"
@@ -85,23 +85,6 @@ function guestLogin(){
     });
 }
 function testLogin(){
-	var mebx = new Mebx();
-	var path = 'test/test';
-    $.ajax({
-    	type:"POST",
-    	url : path,
-    	data: JSON.stringify({
-    	}),
-    	contentType : "application/json; charset=utf-8",
-    	dataType : "json",
-    	success : function(data){
-			console.log("gigi")
-    	},
-    	error : function(){
-    		mebx.showMessage({title:"error", message:"error" ,type:"error"});
-    		
-    	}
-    	
-    });
+	window.location.href = "/test/test";
 }
 </script>
