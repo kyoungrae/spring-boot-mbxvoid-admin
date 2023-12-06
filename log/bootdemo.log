@@ -541,3 +541,51 @@
 2023-12-07 02:29:19 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-12-07 02:29:19 INFO HikariPool-1 - Shutdown initiated...
 2023-12-07 02:29:19 INFO HikariPool-1 - Shutdown completed.
+2023-12-07 02:39:52 INFO Could not detect default configuration classes for test class [com.mbxvoid.common.CommonApplicationTests]: CommonApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-07 02:39:52 INFO Found @SpringBootConfiguration com.mbxvoid.CommonApplication for test class com.mbxvoid.common.CommonApplicationTests
+2023-12-07 02:39:52 INFO Starting CommonApplicationTests using Java 19.0.2 with PID 99032 (started by ikyoungtae in /Users/ikyoungtae/git/spring-boot-mbxvoid-admin)
+2023-12-07 02:39:52 INFO No active profile set, falling back to 1 default profile: "default"
+2023-12-07 02:39:52 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-07 02:39:52 INFO Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2023-12-07 02:39:52 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-07 02:39:52 INFO HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-07 02:39:52 INFO HHH000026: Second-level cache disabled
+2023-12-07 02:39:52 INFO No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-07 02:39:52 INFO HikariPool-1 - Starting...
+2023-12-07 02:39:53 INFO HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73b0ed03
+2023-12-07 02:39:53 INFO HikariPool-1 - Start completed.
+2023-12-07 02:39:53 WARN HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause'
+2023-12-07 02:39:53 WARN HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-07 02:39:53 WARN HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-07 02:39:53 INFO HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-07 02:39:53 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 02:39:53 INFO Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-07 02:39:53 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-07 02:39:54 INFO Started CommonApplicationTests in 1.9 seconds (process running for 2.402)
+2023-12-07 02:39:54 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 02:39:54 INFO HikariPool-1 - Shutdown initiated...
+2023-12-07 02:39:54 INFO HikariPool-1 - Shutdown completed.
+2023-12-07 02:40:17 INFO Could not detect default configuration classes for test class [com.mbxvoid.common.CommonApplicationTests]: CommonApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-07 02:40:17 INFO Found @SpringBootConfiguration com.mbxvoid.CommonApplication for test class com.mbxvoid.common.CommonApplicationTests
+2023-12-07 02:40:17 INFO Starting CommonApplicationTests using Java 19.0.2 with PID 99240 (started by ikyoungtae in /Users/ikyoungtae/git/spring-boot-mbxvoid-admin)
+2023-12-07 02:40:17 INFO No active profile set, falling back to 1 default profile: "default"
+2023-12-07 02:40:18 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-07 02:40:18 INFO Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2023-12-07 02:40:18 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-07 02:40:18 INFO HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-07 02:40:18 INFO HHH000026: Second-level cache disabled
+2023-12-07 02:40:18 INFO No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-07 02:40:18 INFO HikariPool-1 - Starting...
+2023-12-07 02:40:18 INFO HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71e7830a
+2023-12-07 02:40:18 INFO HikariPool-1 - Start completed.
+2023-12-07 02:40:18 WARN HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause'
+2023-12-07 02:40:18 WARN HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-07 02:40:18 WARN HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-07 02:40:19 INFO HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-07 02:40:19 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 02:40:19 INFO Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-07 02:40:19 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-07 02:40:19 INFO Started CommonApplicationTests in 2.003 seconds (process running for 2.53)
+2023-12-07 02:40:20 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 02:40:20 INFO HikariPool-1 - Shutdown initiated...
+2023-12-07 02:40:20 INFO HikariPool-1 - Shutdown completed.
