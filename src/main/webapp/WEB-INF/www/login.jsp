@@ -59,7 +59,7 @@ $("#guest_login").click(function(){
 })
 function guestLogin(){
 	var mebx = new Mebx();
-	var path = 'loginCheck';
+	var path = 'loginCheck.do';
     $.ajax({
     	type:"POST",
     	url : path,

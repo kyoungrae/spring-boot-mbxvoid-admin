@@ -15,7 +15,7 @@ public class LoginCheckController {
     @Autowired
     LoginCheckService service;
 
-    @PostMapping("/loginCheck")
+    @PostMapping("/loginCheck.do")
     public List<Object> LoginChec(@RequestBody UserDto param){
         List<Object> list = new ArrayList<>();
         String path = "";

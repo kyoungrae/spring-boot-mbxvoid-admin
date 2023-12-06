@@ -1,5 +1,5 @@
-@import url('/com/assets/googlefont/Noto_Sans_KR/static/NotoSansKR-Medium.ttf');
-@import url('/com/css/animation.css');
+@import url('../assets/googlefont/Noto_Sans_KR/static/NotoSansKR-Medium.ttf');
+@import url('animation.css');
 /* row-percent : 가로 ,col 새로 ---------------------------------------------------------------------------------*/
 .col-percent-4{width:4%;}.col-percent-5{ width: 5%;}.col-percent-10{ width: 10%;}
 .col-percent-15{ width: 15%;}.col-percent-20{ width: 20%;}
